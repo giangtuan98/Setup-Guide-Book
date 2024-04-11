@@ -1,0 +1,19 @@
+{
+  "TargetValue": 60.0,
+  "CustomizedMetricSpecification": {
+    "MetricName": "mem_used_percent",
+    "Namespace": "ExportPDF/MemoryUtilization",
+    "Dimensions": [
+      {
+        "Name": "AutoScalingGroupName",
+        "Value": "production_api_export_pdf_sg"
+      },
+      {
+        "Name": "Environment",
+        "Value": "Production"
+      }
+    ],
+    "Statistic": "Average",
+    "Unit": "Percent"
+  }
+}

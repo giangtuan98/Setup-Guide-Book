@@ -1,0 +1,21 @@
+{
+  "Namespace": "ExportPDF/MemoryUtilization",
+  "MetricData": [
+    {
+      "MetricName": "mem_used_percent",
+      "Dimensions": [
+        {
+          "Name": "AutoScalingGroupName",
+          "Value": "production_api_export_pdf_sg"
+        },
+        {
+          "Name": "Environment",
+          "Value": "Production"
+        }
+      ],
+      "Timestamp": "2023-07-21T02:50:30Z",
+      "Value": 90.0,
+      "Unit": "Percent"
+    }
+  ]
+}
