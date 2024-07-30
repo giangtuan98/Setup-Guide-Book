@@ -6,4 +6,3 @@
 ```
 'input_encoding'   => 'SHIFT-JIS',
 ```
-Set input_encoding to SHIFT-JIS
